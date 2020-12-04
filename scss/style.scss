@@ -1,8 +1,27 @@
 * {
     margin: 0;
     padding: 0;
-
+   
 }
+
+/*----- Переменные -----*/
+$contetn-tabs_color: #354856;
+$color-btn: #4E5F6B;
+$color-boxshadow: #F7F7F7;
+
+
+
+body {
+    background-color: #354856;
+}
+
+
+.title {
+    color: #FFF;
+}
+
+
+
 
 html {
     font-family: 'Nunito Sans', sans-serif;
@@ -64,17 +83,19 @@ html {
 .content_tabs {
     width: 500px;
     height: 300px;
+    color: #FFF;
     border-radius: 15px;
-    background: #F9F9F9;
-    box-shadow: 0px 0px 10px 1px #96927C;
+    background: $contetn-tabs_color;
+    box-shadow: 0px 0px 10px 1px $color-boxshadow;
 }
 
 .content_tabs2 {
     width: 500px;
     height: 300px;
+    color: #FFF;
     border-radius: 15px;
-    background: #F9F9F9;
-    box-shadow: 0px 0px 10px 1px #96927C;
+    background: $contetn-tabs_color;
+    box-shadow: 0px 0px 10px 1px $color-boxshadow;
 
 }
 
@@ -90,7 +111,7 @@ html {
     font-size: 20px;
     border: none;
     outline: none;
-    background-color: #607B8F;
+    background-color: $color-btn;
     color: white;
     transition: 0.5s;
 }
@@ -124,7 +145,7 @@ html {
     font-size: 20px;
     border: none;
     outline: none;
-    background-color: #607B8F;
+    background-color: $color-btn;
     color: white;
     transition: 0.5s;
 }

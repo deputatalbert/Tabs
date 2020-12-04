@@ -1,6 +1,16 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
+}
+
+/*----- Переменные -----*/
+body {
+  background-color: #354856;
+}
+
+.title {
+  color: #FFF;
 }
 
 html {
@@ -57,17 +67,19 @@ html {
 .content_tabs {
   width: 500px;
   height: 300px;
+  color: #FFF;
   border-radius: 15px;
-  background: #F9F9F9;
-  box-shadow: 0px 0px 10px 1px #96927C;
+  background: #354856;
+  box-shadow: 0px 0px 10px 1px #F7F7F7;
 }
 
 .content_tabs2 {
   width: 500px;
   height: 300px;
+  color: #FFF;
   border-radius: 15px;
-  background: #F9F9F9;
-  box-shadow: 0px 0px 10px 1px #96927C;
+  background: #354856;
+  box-shadow: 0px 0px 10px 1px #F7F7F7;
 }
 
 .content_tabs_btn {
@@ -81,7 +93,7 @@ html {
   font-size: 20px;
   border: none;
   outline: none;
-  background-color: #607B8F;
+  background-color: #4E5F6B;
   color: white;
   transition: 0.5s;
 }
@@ -112,7 +124,7 @@ html {
   font-size: 20px;
   border: none;
   outline: none;
-  background-color: #607B8F;
+  background-color: #4E5F6B;
   color: white;
   transition: 0.5s;
 }
